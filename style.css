@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(255, 255, 255);
+    text-align:center;
+}
+
+#navbar {
+    background-color: rgb(177, 177, 177);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a {
+    color: rgba(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+}
+    
+#navbar a:hover {
+    font-weight: bold;
+    color: rgb(0, 0, 0)
+}
+
+.logo {
+    background-color: rgb(177, 177, 177);
+    font-size: large;
+    font-family: Brush Script MT;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.link-container {
+    background-color: rgb(177, 177, 177);
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+color: black;
+font-weight: lighter;
+font-family: Brush Script MT;
+text-align: center;
+text-decoration: underline;
+}
+
+h2 {
+color: rgb(85, 35, 22);
+text-align: center;
+}
+
+h3 {
+color: black;
+font-weight: lighter;
+font-size: larger;
+text-align: center;
+}
+
+h4 {
+color: rgb(90, 90, 90);
+font-size: medium;
+text-align: center;
+}
+
+#navbar2 {
+    background-color: rgb(177, 177, 177);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center {
+    width: 30%;
+}
+
+#img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navbar2 a {
+    color: rgba(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+}
+    
+#navbar2 a:hover {
+    font-weight: bold;
+    color: rgb(0, 0, 0)
+}
+
+.link-container2 {
+    background-color: rgb(177, 177, 177);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
